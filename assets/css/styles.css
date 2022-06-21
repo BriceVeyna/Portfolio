@@ -34,35 +34,41 @@ header {
 }
 
 main {
+    position: relative;
+    top: 125px;
     width: 100%;
     background-color: rgb(241,220,167);
 }
 
 #about {
     display:flex;
-    position: relative;
-    top: 125px;
 }
 
-img {
+#portrait {
     border: solid gray 1px;
     border-radius: 15px;
 }
 
 #work {
-    display:block;
-    position: relative;
-    top: 125px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    border: solid gray 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 1px;
 }
 
 #contact {
-    display:block;
-    position: relative;
-    top: 125px;
+    display:flex;
 }
 
 footer {
     position: relative;
     top: 125px;
     padding-bottom: 5px;
+    background-color: rgb(150,120,100);
+    text-align: center;
 }
