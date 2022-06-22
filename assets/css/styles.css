@@ -13,7 +13,6 @@ header {
 #navigation {
     display: block;
     position: fixed;
-    overflow: hidden;
     top: 0;
     width: 100%;
     background-image: linear-gradient(rgb(140, 110, 90),rgb(150,120,100),rgb(130, 100, 80));
@@ -56,9 +55,26 @@ main {
 
 .card {
     display: block;
+    flex: 1 0 0;
+    padding: 10px;
+    background-color: rgb(208,140,96);
     border: solid gray 1px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px 1px;
+}
+
+.card img {
+    width: 100%;
+    min-width: 400px;
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+
+.card-caption {
+    position: relative;
+    bottom: 100px;
+    border: solid black 1px;
+    background-color: rgb(255,203,105);
 }
 
 #contact {
@@ -71,4 +87,12 @@ footer {
     padding-bottom: 5px;
     background-color: rgb(150,120,100);
     text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
 }
