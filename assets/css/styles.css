@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     position: fixed;
     top: 45px;
@@ -35,7 +39,6 @@ header {
 main {
     position: relative;
     top: 125px;
-    width: 100%;
     background-color: rgb(241,220,167);
 }
 
@@ -43,7 +46,17 @@ main {
     display:flex;
 }
 
+#bio {
+    display: block;
+    float: right;
+    padding-left: 25px;
+    border-left: solid black 1px;
+    text-indent: 35px;
+}
+
 #portrait {
+    float: left;
+    margin: 0 20px 20px 0;
     border: solid gray 1px;
     border-radius: 15px;
 }
@@ -53,9 +66,19 @@ main {
     flex-wrap: wrap;
 }
 
+#work-heading {
+    padding-right: 50px;
+    border-right: solid black 1px;
+}
+
+#work-card {
+    flex: 1 0 0;
+    float: right;
+}
+
 .card {
     display: block;
-    flex: 1 0 0;
+    float: right;
     padding: 10px;
     background-color: rgb(208,140,96);
     border: solid gray 1px;
@@ -71,20 +94,36 @@ main {
 }
 
 .card-caption {
-    position: relative;
-    bottom: 100px;
     border: solid black 1px;
     background-color: rgb(255,203,105);
+    padding-left: 20px;
 }
 
 #contact {
     display:flex;
+    padding-top: 15px;
+
+}
+
+#contact-heading {
+    padding-right: 21px;
+    border-right: solid black 1px;
+}
+
+#contact-info a {
+    display: block;
+    float: right;
+    position: relative;
+    top: 15%;
+    padding: 14px 16px;
+    color: black;
 }
 
 footer {
     position: relative;
     top: 125px;
     padding-bottom: 5px;
+    padding-top: 5px;
     background-color: rgb(150,120,100);
     text-align: center;
 }
