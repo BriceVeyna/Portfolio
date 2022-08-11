@@ -8,7 +8,7 @@ This project is a portfolio containing examples of my software development relat
 [Brice-Veyna-Portfolio](https://briceveyna.github.io/Portfolio/)
 
 ### Badges
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Usage
 The projects links are implemented through the use of large cards with image links imbedded leading to the deployed applications.
